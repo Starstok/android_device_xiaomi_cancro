@@ -30,3 +30,10 @@ lunch cm_cancro-eng
 make -jx recoveryimage
 
 编译得到的recovery.img文件在cm13/out/target/product/cancro目录下
+
+##出现错误
+chmod: 无法访问"/home/builder/android/cm13/out/target/product/cancro/dt.img": 没有那个文件或目录
+
+解决方法：
+
+把device/xiaomi/cancro下的dt.img复制到cm13/out/target/product/cancro目录
