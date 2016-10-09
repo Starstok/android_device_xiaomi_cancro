@@ -21,6 +21,11 @@ https://github.com/xiaolu/android_bootable_recovery-twrp
 
 下载后替换掉cm13/bootable目录下的recovery
 
+下载对应的common工具
+https://github.com/CyanogenMod/android_device_qcom_common
+
+下载放在device/qcom/目录下
+
 3.进入源码目录依次输入命令回车
 
 source build/envsetup.sh
